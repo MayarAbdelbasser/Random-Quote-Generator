@@ -1,0 +1,40 @@
+body {
+  font-family: "Gemunu Libre", sans-serif;
+  background: linear-gradient(to bottom right, #5d13e7, #8249b5);
+  min-height: 100svh;
+}
+* {
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.quote-container {
+  background: #fbfbfb;
+  padding: 15px;
+  width: 80%;
+  max-width: 500px;
+}
+button {
+  background: linear-gradient(to bottom right, #5d13e7, #8249b5);
+  color: #fbfbfb;
+  font-size: 18px;
+}
+.quote-content {
+  color: #323232;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.quote-author {
+  color: rgba(50, 50, 50, 0.7);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.quote-controls span {
+  width: 50px;
+  margin-left: 8px;
+  border: 2px solid #8249b5;
+  cursor: pointer;
+}
+svg path {
+  fill: #8249b5;
+}
